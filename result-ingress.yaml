@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   labels:
     app: result
-  name: result-ingress
+  name: result
 spec:
   ingressClassName: traefik
   rules:
@@ -16,4 +16,5 @@ spec:
           service:
             name: result-service
             port:
+
               number: 80
