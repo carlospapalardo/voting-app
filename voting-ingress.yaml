@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   labels:
     app: vote
-  name: voting-ingress
+  name: vote
 spec:
   ingressClassName: traefik
   rules:
@@ -16,4 +16,5 @@ spec:
           service:
             name: voting-service
             port:
+
               number: 80
