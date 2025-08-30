@@ -14,7 +14,6 @@ spec:
         path: "/"
         backend:
           service:
-            name: result-service
+            name: result
             port:
-
               number: 80
